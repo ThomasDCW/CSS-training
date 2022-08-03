@@ -1,14 +1,13 @@
-import { useState } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import NavBar from './components/NavBAr';
+import GlobalStyle from './GlobalStyle';
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <div className='App'>
-      <header className='App-header'>Template React Vite</header>
-    </div>
+    <GlobalStyle>
+      <article>
+        <NavBar />
+      </article>
+    </GlobalStyle>
   );
 }
 
