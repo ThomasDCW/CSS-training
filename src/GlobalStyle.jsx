@@ -7,12 +7,14 @@ export default styled.div`
   background-color: #2d2d2d;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+
   min-height: 100vh;
 
   .navBar {
     position: fixed;
     bottom: 0;
+  }
+  a {
+    text-decoration: none;
   }
 `;
