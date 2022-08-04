@@ -10,4 +10,9 @@ export default styled.div`
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+
+  .navBar {
+    position: fixed;
+    bottom: 0;
+  }
 `;

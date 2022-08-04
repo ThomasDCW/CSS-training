@@ -5,7 +5,7 @@ import GlobalStyle from './GlobalStyle';
 function App() {
   return (
     <GlobalStyle>
-      <article>
+      <article className='navBar'>
         <Routes>
           <Route path='*' element={<NavBar />} />;
           <Route path='*' element={<NavBar />} />;
